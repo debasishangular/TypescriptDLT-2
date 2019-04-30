@@ -1,0 +1,19 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "description": "Typescript DEMO",
+  "main": "app.js",
+  "scripts": {
+    "test": "Test",
+    "tsc":"tsc",
+    "tsc:w":"tsc -w",
+    "lite":"lite-server",
+    "start":"npm run tsc:w && npm run lite "
+  },
+  "author": "DLT",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "typescript": "^3.4.5"
+  }
+}
